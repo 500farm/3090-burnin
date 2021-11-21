@@ -1,0 +1,10 @@
+#!/bin/bash
+
+NUMGPUS=`nvidia-smi -L | wc -l`
+echo Number of GPUs: $NUMGPUS
+
+cd /pytorch-gpu-benchmark
+while true
+do
+    python3 benchmark_models.py -g $NUMGPUS
+done
