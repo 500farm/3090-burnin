@@ -1,6 +1,6 @@
 # 3090-burnin
 
-Wrapper for https://github.com/JunhongXu/pytorch-benchmark-volta.
+Docker container for https://github.com/JunhongXu/pytorch-benchmark-volta.
 
 Test your RTX 3090 rig for stability with this benchmark.
 
