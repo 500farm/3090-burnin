@@ -1,5 +1,7 @@
 # 3090-burnin
 
+Wrapper for https://github.com/JunhongXu/pytorch-benchmark-volta.
+
 Test your RTX 3090 rig for stability with this benchmark.
 
 It is typical for machines with 4 or more RTX 3090 GPUs to shut down on this benchmark after 10-30 minutes. The exact reason of this is still unknown but it depends on particular motherboards and GPUs. This does not happen when mining.
