@@ -14,3 +14,4 @@ Usage:
 ```
 docker run --gpus all --shm-size 1G --rm -it 500farm/3090-burnin
 ```
+The benchmark runs in a loop until Ctrl+C is pressed or an error happens.
